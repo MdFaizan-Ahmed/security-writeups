@@ -1,6 +1,6 @@
 # Insufficient Session Expiration on picoCTF "Old Sessions"
 
-**Source:** picoCTF 2026 — Web Exploitation (Easy)
+**Source:** picoCTF 2026: Web Exploitation 
 
 ## Summary
 The application sets session cookies without an expiration and exposes
