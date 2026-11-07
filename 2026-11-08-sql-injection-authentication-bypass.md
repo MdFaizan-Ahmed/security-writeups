@@ -1,6 +1,6 @@
 # Authentication Bypass via SQL Injection on PortSwigger "SQL Injection Vulnerability Allowing Login Bypass"
 
-**Source:** PortSwigger Web Security Academy — SQL Injection (Apprentice)
+**Source:** PortSwigger Web Security Academy: SQL Injection (Apprentice)
 
 ## Summary
 The login form concatenates the username directly into the backend SQL query. Injecting `administrator'--` comments out the password verification step, allowing authentication as the administrator without valid credentials.
