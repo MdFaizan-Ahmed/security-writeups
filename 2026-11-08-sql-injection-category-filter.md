@@ -1,6 +1,6 @@
 # SQL Injection in Product Category Filter on PortSwigger "SQL Injection Vulnerability in WHERE Clause"
 
-**Source:** PortSwigger Web Security Academy — SQL Injection (Apprentice)
+**Source:** PortSwigger Web Security Academy: SQL Injection (Apprentice)
 
 ## Summary
 The product category filter concatenates user input directly into a SQL
@@ -32,7 +32,7 @@ injection point can extract data from other tables (usernames, passwords,
 etc.).
 
 ## Remediation
-- Use parameterized queries (prepared statements) for all SQL.
+- Use parameterised queries (prepared statements) for all SQL.
 - Never concatenate user input into SQL strings.
 - Apply least-privilege database permissions (the app shouldn't have
   access to tables it doesn't need).
