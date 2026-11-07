@@ -1,6 +1,6 @@
 # Developer Backdoor via Debug Header on picoCTF "Crack the Gate 1"
 
-**Source:** picoCTF — Web Exploitation
+**Source:** picoCTF: Web Exploitation
 
 ## Summary
 An HTML comment in the page source disclosed a debug bypass: a ROT13-encoded
